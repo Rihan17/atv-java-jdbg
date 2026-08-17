@@ -10,14 +10,14 @@ public class Tarefa {
     public Tarefa() {
     }
 
-    // Construtor usado para INSERT (sem id, gerado pelo banco; começa não concluída)
+
     public Tarefa(String titulo, String categoria) {
         this.titulo = titulo;
         this.categoria = categoria;
         this.concluida = false;
     }
 
-    // Construtor usado para leituras do banco (SELECT) e UPDATE
+
     public Tarefa(int id, String titulo, String categoria, boolean concluida) {
         this.id = id;
         this.titulo = titulo;
